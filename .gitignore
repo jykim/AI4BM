@@ -1,0 +1,32 @@
+# Obsidian
+.obsidian/workspace*
+.obsidian/plugins/*/
+.trash/
+
+# AI Agent Settings
+.claude/settings.local.json
+.claude/logs/
+
+# Work in Progress
+Theory/Concepts/drafts/
+Products/Blog/Drafts/
+Source/raw/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Temporary Files
+*.tmp
+*.bak
+*~
+
+# Large Media (keep essential diagrams only)
+*.mp4
+*.mov
+*.avi
+
+# Build Artifacts
+node_modules/
+dist/
+build/

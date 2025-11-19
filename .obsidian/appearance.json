@@ -1,0 +1,9 @@
+{
+  "cssTheme": "Blue Topaz",
+  "enabledCssSnippets": [
+    "image_align"
+  ],
+  "theme": "obsidian",
+  "translucency": false,
+  "baseFontSize": 18
+}
