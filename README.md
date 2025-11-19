@@ -16,6 +16,7 @@ Infrastructure and configuration
 - `Prompts/` - AI agent prompts for content workflows
 - `Templates/` - Document templates (source summaries, etc.)
 - `Workflows/` - Multi-step process definitions
+- `Skills/` - Claude Code skills for enhanced AI capabilities
 - `Issues/` - Bug reports, improvement requests
 - `Goals/` - Team goals and milestones
 
@@ -72,8 +73,18 @@ Project planning and specifications
 2. Open in Obsidian (`.obsidian/` settings included)
 3. Review `Theory/` content to understand framework
 4. Check `_Settings_/Templates/` for contribution formats
-5. Add sources to `Source/` before citing in theory
-6. Draft content in appropriate `Publish/` subfolder
+5. **Setup Claude Code skills** (see `_Settings_/Skills/Skills.md` for instructions)
+6. Add sources to `Source/` before citing in theory
+7. Draft content in appropriate `Publish/` subfolder
+
+### AI Agent Configuration
+
+This vault includes configuration files for AI agents:
+- `AGENTS.md` - Generic rules for all AI agents
+- `CLAUDE.md` - Claude Code-specific rules
+- `GEMINI.md` - Gemini-specific configuration
+
+These files are automatically loaded by AI agents to ensure consistent vault interaction patterns.
 
 ## Maintenance
 
