@@ -1,0 +1,12 @@
+---
+author: Ben Thompson
+category: articles
+source: reader
+date: 2025-11-18
+URL: https://stratechery.com/2025/ai-promise-and-chip-precariousness/?access_token=eyJhbGciOiJSUzI1NiIsImtpZCI6InN0cmF0ZWNoZXJ5LnBhc3Nwb3J0Lm9ubGluZSIsInR5cCI6IkpXVCJ9.eyJhdWQiOiJzdHJhdGVjaGVyeS5wYXNzcG9ydC5vbmxpbmUiLCJhenAiOiJIS0xjUzREd1Nod1AyWURLYmZQV00xIiwiZW50Ijp7InVyaSI6WyJodHRwczovL3N0cmF0ZWNoZXJ5LmNvbS8yMDI1L2FpLXByb21pc2UtYW5kLWNoaXAtcHJlY2FyaW91c25lc3MvIl19LCJleHAiOjE3NDMwOTQ5NzYsImlhdCI6MTc0MDUwMjk3NiwiaXNzIjoiaHR0cHM6Ly9hcHAucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiJWNFZ4WUhtUnJGYVlLYkE5TnBlYjVGIiwidXNlIjoiYWNjZXNzIn0.PTvs-0HgkeCbawyXm2GdoTd-ohuERyj8Me0cAghCr07gH6pvnfKv_ainkYdzstqZ0GWhOi0qQHNA1OIcfe09liWf_DH5as-kn_fYGb7tstEmX70bePb66L_SJYePiHDDPO8E_5e2OEOaFsuUY9SuV9s2LAt3pjQXB3nHY-TxNgk8hIwxRx-YigPUxk_qY1vCBJlTpAVibiLCL0u82dZJd1KbAcPatDiM_bTjH438l6hTlH6gu7sa1a8OwU1NcovmkvzvkVgWEDfTjxaPGp8ta9BTF3fXx4amVA_4SHy6jtklRepM7nerMYC0YBPq_3EPSzAaq4ztbPJHsRjlnFJcDA
+---
+Ben Thompson #reader
+
+## Highlights
+DeepSeek’s models — which are both better than Meta’s Llama models and more open (and unencumbered by an [“openish” license](https://stratechery.com/2023/streaming-residuals-and-spotify-llama-2-open-sourced-llamas-license/)) — set the bar for “minimum open capability”; any model at or below DeepSeek’s models has no real excuse to not be open. ([View Highlight](https://read.readwise.io/read/01jmz29zx97qyyc7bx0gzrg91y))
+

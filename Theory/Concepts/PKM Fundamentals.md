@@ -22,7 +22,7 @@ Personal Knowledge Management (PKM)은 개인이 일상에서 접하는 모든 �
 - **Distill** (추출): 정보 계층화를 위한 단계별 요약
 - **Express** (표현): 지식을 활용한 결과물 생성
 
-참고: [[Source/Building a Second Brain]]
+참고: [[Building a Second Brain]]
 
 ### PARA 시스템
 생산 중심 조직화 프레임워크:
@@ -39,7 +39,7 @@ Personal Knowledge Management (PKM)은 개인이 일상에서 접하는 모든 �
 3. **Extensive Linking**: 노트 간 연결을 통한 지식 네트워크 형성
 4. **Emergent Structure**: 링크로 구조가 자연스럽게 생성
 
-참고: [[Source/How to Take Smart Notes]]
+참고: [[How to Take Smart Notes]]
 
 ## PKM Evolution: 3 Generations
 
@@ -200,5 +200,5 @@ AI가 너무 완벽하게 처리하면 인간이 학습하지 않는 역설
 ## Related Concepts
 - [[Theory/AI4PKM Framework]]
 - [[Theory/Knowledge Management Cycle]]
-- [[Source/Building a Second Brain]]
-- [[Source/How to Take Smart Notes]]
+- [[Building a Second Brain]]
+- [[How to Take Smart Notes]]

@@ -608,7 +608,7 @@ After:  목표 정의 → 필요 지식 → 학습 → 실행 → 측정 → 달
 - [[Theory of AI4PKM (1) - Why PKM]]
 - [[Theory of AI4PKM (2) - Why AI for PKM]]
 - [[Theory of AI4PKM (3) - AI4PKM Framework]]
-- [[AI for Better Me]] (Series Index)
+- [[Theory of AI4PKM]] (Series Index)
 
 **Implementation Projects**:
 - [[Projects/AI4PKM/2025-11-09 Need for PKM Assistant]]
