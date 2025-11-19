@@ -31,11 +31,12 @@ Core concepts and methods
 - `Methods/` - How-to guides, methodologies
 - Content is universal (no personal experiences)
 
-### `Products/`
+### `Publish/`
 Content outputs in various formats
 - `Blog/` - Drafts/ and Published/ blog posts
 - `Lecture/` - Slides/, Notes/, Exercises/
 - `Video/` - Scripts/ and Published/ videos
+- `Talks/` - Presentation slides and materials
 
 ### `Projects/`
 Project planning and specifications
@@ -49,7 +50,7 @@ Project planning and specifications
 ✅ Best practices (anonymized if needed)
 ✅ Published source summaries
 ✅ Team-reviewed theory articles
-✅ Production-ready content (blog/lecture/video)
+✅ Production-ready content (blog/lecture/video/talks)
 
 ### What Stays in Personal Vaults
 ❌ Personal journal entries and daily logs
@@ -72,7 +73,7 @@ Project planning and specifications
 3. Review `Theory/` content to understand framework
 4. Check `_Settings_/Templates/` for contribution formats
 5. Add sources to `Source/` before citing in theory
-6. Draft content in appropriate `Products/` subfolder
+6. Draft content in appropriate `Publish/` subfolder
 
 ## Maintenance
 
