@@ -1,0 +1,54 @@
+version: "1.0"
+orchestrator:
+  prompts_dir: _Settings_/Prompts
+  tasks_dir: _Settings_/Tasks
+  logs_dir: _Settings_/Logs
+  skills_dir: _Settings_/Skills
+  bases_dir: _Settings_/Bases
+  max_concurrent: 3
+  poll_interval: 1
+defaults:
+  executor: codex_cli
+  timeout_minutes: 30
+  max_parallel: 3
+  task_create: true
+  task_priority: medium
+  task_archived: false
+nodes:
+  - type: agent
+    name: Enrich Ingested Content (EIC)
+    input_path: Ingest/Clippings
+    output_path: AI/Articles
+    executor: codex_cli
+  - type: agent
+    name: Manage Calendar Events (MCE)
+    cron: 15,45 * * * *
+    output_path: AI/Events
+    executor: claude_code
+    agent_params:
+      calendars:
+        - Default
+        - Work
+      past_hours: 24
+      future_days: 3
+  - type: agent
+    name: Generate Daily Roundup (GDR)
+    cron: 0 0,18 * * *
+    output_path: AI/Roundup
+pollers:
+  apple_photos:
+    enabled: true
+    target_dir: Ingest/Photolog
+    poll_interval: 3600
+    days: 7
+  apple_notes:
+    enabled: true
+    target_dir: Ingest/Apple Notes
+    poll_interval: 1800
+  limitless:
+    enabled: true
+    target_dir: Ingest/Limitless
+    poll_interval: 300
+    start_days_ago: 7
+id: OV2024
+name: OV2024

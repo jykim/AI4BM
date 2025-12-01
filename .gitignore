@@ -1,4 +1,5 @@
 # Obsidian
+.obsidian/
 .obsidian/workspace*
 .obsidian/plugins/*/
 .trash/
@@ -11,6 +12,8 @@
 Theory/Concepts/drafts/
 Products/Blog/Drafts/
 Source/raw/
+_Sandbox_/
+_Archive_/
 
 # OS Files
 .DS_Store

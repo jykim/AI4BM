@@ -41,7 +41,7 @@ Each part (~3 hour lecture) is divided into theory and practice
 ---
 ### Part 2: Why AI for PKM (210 min = 3.5 hours)
 
-**Theory:** [[Theory of AI4PKM (2) - Why AI for PKM]]
+**Theory:** [[Theory of AI4PKM (2) - Using AI for PKM]]
 
 #### Section 2.1: AI 시대의 지식 작업 (60 min)
 - **Goal**: AI가 지식작업에 가져온 패러다임 변화(검색→대화, 수동→자동, 정적→동적) 이해

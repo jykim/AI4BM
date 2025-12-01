@@ -1,5 +1,5 @@
 ---
-title: "Theory of AI4PKM (4) - From Knowledge to Goals"
+title: Theory of AI4PKM (4) - From Knowledge to Goals
 created: 2025-11-13
 tags:
   - ai4pkm
@@ -7,9 +7,10 @@ tags:
   - theory
   - goals
   - transformation
-series: "Theory of AI4PKM"
+series: Theory of AI4PKM
 part: 4
 previous: "[[Theory of AI4PKM (3) - AI4PKM Framework]]"
+dg-publish: true
 ---
 지금까지 우리는 **"어떻게 지식을 관리하는가"**(How)에 집중했다. 이제 **"왜 지식을 관리하는가"**(Why)로 시야를 넓힐 시간이다.
 
@@ -606,7 +607,7 @@ After:  목표 정의 → 필요 지식 → 학습 → 실행 → 측정 → 달
 
 **Series Navigation**:
 - [[Theory of AI4PKM (1) - Why PKM]]
-- [[Theory of AI4PKM (2) - Why AI for PKM]]
+- [[Theory of AI4PKM (2) - Using AI for PKM]]
 - [[Theory of AI4PKM (3) - AI4PKM Framework]]
 - [[Theory of AI4PKM]] (Series Index)
 

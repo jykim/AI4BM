@@ -525,5 +525,14 @@
       ],
       "key": "F"
     }
+  ],
+  "insert-current-date": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "D"
+    }
   ]
 }

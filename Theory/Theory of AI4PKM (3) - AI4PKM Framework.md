@@ -1,20 +1,21 @@
 ---
-title: "Theory of AI4PKM (3) - AI4PKM Framework"
+title: Theory of AI4PKM (3) - AI4PKM Framework
 created: 2025-11-11
 tags:
   - ai4pkm
   - knowledge-management
   - theory
   - framework
-series: "Theory of AI4PKM"
+series: Theory of AI4PKM
 part: 3
-previous: "[[Theory of AI4PKM (2) - Why AI for PKM]]"
+previous: "[[Theory of AI4PKM (2) - Using AI for PKM]]"
 next: "[[Theory of AI4PKM (4) - From Knowledge to Goals]]"
+dg-publish: true
 ---
 
 # Theory of AI4PKM (3) - AI4PKM Framework
 
-[[Theory of AI4PKM (2) - Why AI for PKM|이전 글]]에서 AI가 어떻게 PKM의 세 가지 장벽(수집-정리-창작)을 무너뜨렸는지 살펴봤다. 이제 실제로 어떤 시스템을 어떻게 만들어야 할지, 구체적인 프레임워크를 설계해보자.
+[[Theory of AI4PKM (2) - Using AI for PKM|이전 글]]에서 AI가 어떻게 PKM의 세 가지 장벽(수집-정리-창작)을 무너뜨렸는지 살펴봤다. 이제 실제로 어떤 시스템을 어떻게 만들어야 할지, 구체적인 프레임워크를 설계해보자.
 
 > [!tip] 읽기 가이드
 > - **빠른 스캔**: 설계 원칙과 핵심 구성요소만 (10분)

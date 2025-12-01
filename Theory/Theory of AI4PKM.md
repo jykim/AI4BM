@@ -1,13 +1,16 @@
 ---
-title: "AI for Better Me"
-description: "AI 시대, 지식 관리를 통해 더 나은 나를 만드는 실용적 가이드"
+title: AI for Better Me
+description: AI 시대, 지식 관리를 통해 더 나은 나를 만드는 실용적 가이드
 created: 2025-11-11
 tags:
   - ai4pkm
   - knowledge-management
   - series-index
 type: series
+dg-publish: true
+dg-home: true
 ---
+# Theory of AI4PKM
 ## 시리즈 소개
 
 우리는 매일 엄청난 양의 정보를 소비하지만, 정작 필요한 순간에는 그 지식을 활용하지 못한다. 지난 프로젝트의 교훈, 읽었던 책의 인사이트, 회의에서 나온 아이디어들이 모두 어딘가에 있지만 찾을 수 없다.
@@ -37,7 +40,7 @@ AI는 이 문제를 근본적으로 바꾸고 있다. 이제는 누구나 자신
 
 ---
 
-### 2편: [[Theory of AI4PKM (2) - Why AI for PKM|Why AI for PKM - AI는 무엇을 바꿨나?]]
+### 2편: [[Theory of AI4PKM (2) - Using AI for PKM|How to Use AI for PKM - AI는 무엇을 바꿨나?]]
 
 **핵심 질문**: 이론은 좋은데, 왜 대부분의 사람들은 PKM에 실패했을까?
 

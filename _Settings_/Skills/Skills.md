@@ -45,7 +45,25 @@ Validate and enforce markdown document structure.
 
 ### Content Creation Skills
 
-#### 4. markdown-to-docx
+#### 4. md2html
+Convert markdown documents to HTML format for website publishing with image conversion and styling.
+
+**Key Features:**
+- Full markdown to HTML conversion with proper semantic tags
+- Excalidraw SVG to PNG/SVG conversion
+- Wiki link resolution to HTML links
+- Frontmatter extraction for meta tags
+- AI4BM website template integration
+- Dark theme with responsive design
+
+**Dependencies:**
+```bash
+pip install markdown>=3.5.0 Pillow>=10.0.0 pyyaml>=6.0 beautifulsoup4>=4.12.0 cairosvg>=2.7.0
+```
+
+**Usage:** Call when you need to publish vault content to website or convert markdown to styled HTML pages.
+
+#### 5. markdown-to-docx
 Convert markdown documents to Microsoft Word (.docx) format with proper formatting.
 
 **Key Features:**
@@ -61,7 +79,7 @@ pip install python-docx>=1.1.0
 
 **Usage:** Call the skill when you need to export markdown to Word format.
 
-#### 5. interactive-writing-assistant
+#### 6. interactive-writing-assistant
 Comprehensive support for the writing process from ideation through revision.
 
 **Key Features:**
@@ -73,7 +91,7 @@ Comprehensive support for the writing process from ideation through revision.
 
 **Usage:** Call when helping users write essays, articles, or creative pieces through interactive collaboration.
 
-#### 6. youtube-transcript-skill
+#### 7. youtube-transcript-skill
 Download YouTube video transcripts when user provides a YouTube URL.
 
 **Key Features:**
@@ -85,16 +103,32 @@ Download YouTube video transcripts when user provides a YouTube URL.
 
 ## Setup Instructions
 
-### Initial Setup
+### Automated Setup (Recommended)
 
-Skills need to be symlinked from this vault to Claude Code's skills directory for Claude to recognize them:
+Run the initialization script from the vault root:
+
+```bash
+cd /path/to/AI4BM
+./_Settings_/Scripts/init_vault.sh
+```
+
+This script will:
+- Create `~/.claude/skills/` directory if needed
+- Symlink all 7 skills to Claude Code's skills directory
+- Check for Python dependencies
+- Offer to install missing packages if needed
+- Verify all skills are accessible
+
+### Manual Setup
+
+If you prefer manual setup or need to troubleshoot:
 
 ```bash
 # Navigate to skills directory
 cd "/path/to/AI4BM/_Settings_/Skills"
 
 # Create symlinks for each skill
-for skill in obsidian-links obsidian-yaml-frontmatter obsidian-markdown-structure markdown-to-docx interactive-writing-assistant youtube-transcript-skill; do
+for skill in obsidian-links obsidian-yaml-frontmatter obsidian-markdown-structure md2html markdown-to-docx interactive-writing-assistant youtube-transcript-skill; do
     ln -sf "$PWD/$skill" ~/.claude/skills/"$skill"
 done
 ```
@@ -114,6 +148,9 @@ You should see symlinks pointing to this vault's Skills directory.
 Some skills require Python packages:
 
 ```bash
+# For md2html
+pip install markdown>=3.5.0 Pillow>=10.0.0 pyyaml>=6.0 beautifulsoup4>=4.12.0 cairosvg>=2.7.0
+
 # For markdown-to-docx
 pip install python-docx>=1.1.0
 

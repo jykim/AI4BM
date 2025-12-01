@@ -62,6 +62,8 @@
     "created": "datetime",
     "review_yn": "checkbox",
     "reviewed": "checkbox",
-    "weight": "number"
+    "weight": "number",
+    "dg-publish": "checkbox",
+    "dg-home": "checkbox"
   }
 }

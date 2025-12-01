@@ -69,13 +69,27 @@ Project planning and specifications
 
 ## Getting Started
 
-1. Clone this repository
-2. Open in Obsidian (`.obsidian/` settings included)
-3. Review `Theory/` content to understand framework
-4. Check `_Settings_/Templates/` for contribution formats
-5. **Setup Claude Code skills** (see `_Settings_/Skills/Skills.md` for instructions)
-6. Add sources to `Source/` before citing in theory
-7. Draft content in appropriate `Publish/` subfolder
+1. **Clone this repository**
+   ```bash
+   git clone <repository-url>
+   cd AI4BM
+   ```
+
+2. **Run initialization script** (sets up Claude Code skills and dependencies)
+   ```bash
+   ./_Settings_/Scripts/init_vault.sh
+   ```
+
+3. **Open in Obsidian** (`.obsidian/` settings included)
+
+4. **Review framework**
+   - `Theory/` content to understand AI4PKM concepts
+   - `_Settings_/Templates/` for contribution formats
+   - `_Settings_/Skills/Skills.md` for available AI capabilities
+
+5. **Start contributing**
+   - Add sources to `Source/` before citing in theory
+   - Draft content in appropriate `Publish/` subfolder
 
 ### AI Agent Configuration
 
