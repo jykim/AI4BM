@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420">
+  <defs>
+    <linearGradient id="level1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#b91c1c"/>
+    </linearGradient>
+    <linearGradient id="level2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ea580c"/>
+      <stop offset="100%" style="stop-color:#c2410c"/>
+    </linearGradient>
+    <linearGradient id="level3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#eab308"/>
+      <stop offset="100%" style="stop-color:#ca8a04"/>
+    </linearGradient>
+    <linearGradient id="level4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e"/>
+      <stop offset="100%" style="stop-color:#16a34a"/>
+    </linearGradient>
+    <linearGradient id="level5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#059669"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="820" height="420" fill="#0f172a" rx="10"/>
+
+  <!-- Title -->
+  <text x="410" y="32" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="600" fill="#f1f5f9">AI 활용 단계별 5가지 기준 비교</text>
+
+  <!-- Column Headers (Criteria) - aligned with cell centers -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#cbd5e1" text-anchor="middle">
+    <text x="150" y="62">컨텍스트</text>
+    <text x="270" y="62">결과물</text>
+    <text x="390" y="62">복잡성</text>
+    <text x="510" y="62">자동화</text>
+    <text x="630" y="62">컨트롤</text>
+  </g>
+
+  <!-- Row Headers (Stages) -->
+  <g font-family="system-ui, -apple-system, sans-serif">
+    <text x="80" y="108" text-anchor="end" font-size="14" font-weight="600" fill="#e2e8f0">1단계</text>
+    <text x="80" y="124" text-anchor="end" font-size="10" fill="#94a3b8">ChatGPT</text>
+
+    <text x="80" y="178" text-anchor="end" font-size="14" font-weight="600" fill="#e2e8f0">2단계</text>
+    <text x="80" y="194" text-anchor="end" font-size="10" fill="#94a3b8">컨텍스트</text>
+
+    <text x="80" y="248" text-anchor="end" font-size="14" font-weight="600" fill="#e2e8f0">3단계</text>
+    <text x="80" y="264" text-anchor="end" font-size="10" fill="#94a3b8">워크스페이스</text>
+
+    <text x="80" y="318" text-anchor="end" font-size="14" font-weight="600" fill="#e2e8f0">5단계</text>
+    <text x="80" y="334" text-anchor="end" font-size="10" fill="#94a3b8">자동화</text>
+
+    <text x="80" y="388" text-anchor="end" font-size="14" font-weight="600" fill="#e2e8f0">6단계</text>
+    <text x="80" y="404" text-anchor="end" font-size="10" fill="#94a3b8">목표 기반</text>
+  </g>
+
+  <!-- Grid Cells - 5 columns x 5 rows -->
+  <!-- Row 1: 1단계 ChatGPT -->
+  <rect x="95" y="80" width="110" height="60" rx="6" fill="url(#level1)"/>
+  <rect x="215" y="80" width="110" height="60" rx="6" fill="url(#level1)"/>
+  <rect x="335" y="80" width="110" height="60" rx="6" fill="url(#level1)"/>
+  <rect x="455" y="80" width="110" height="60" rx="6" fill="url(#level1)"/>
+  <rect x="575" y="80" width="110" height="60" rx="6" fill="url(#level1)"/>
+
+  <!-- Row 2: 2단계 컨텍스트 -->
+  <rect x="95" y="150" width="110" height="60" rx="6" fill="url(#level2)"/>
+  <rect x="215" y="150" width="110" height="60" rx="6" fill="url(#level1)"/>
+  <rect x="335" y="150" width="110" height="60" rx="6" fill="url(#level1)"/>
+  <rect x="455" y="150" width="110" height="60" rx="6" fill="url(#level1)"/>
+  <rect x="575" y="150" width="110" height="60" rx="6" fill="url(#level1)"/>
+
+  <!-- Row 3: 3단계 워크스페이스 -->
+  <rect x="95" y="220" width="110" height="60" rx="6" fill="url(#level4)"/>
+  <rect x="215" y="220" width="110" height="60" rx="6" fill="url(#level4)"/>
+  <rect x="335" y="220" width="110" height="60" rx="6" fill="url(#level3)"/>
+  <rect x="455" y="220" width="110" height="60" rx="6" fill="url(#level1)"/>
+  <rect x="575" y="220" width="110" height="60" rx="6" fill="url(#level4)"/>
+
+  <!-- Row 4: 5단계 자동화 -->
+  <rect x="95" y="290" width="110" height="60" rx="6" fill="url(#level4)"/>
+  <rect x="215" y="290" width="110" height="60" rx="6" fill="url(#level4)"/>
+  <rect x="335" y="290" width="110" height="60" rx="6" fill="url(#level4)"/>
+  <rect x="455" y="290" width="110" height="60" rx="6" fill="url(#level4)"/>
+  <rect x="575" y="290" width="110" height="60" rx="6" fill="url(#level4)"/>
+
+  <!-- Row 5: 6단계 목표 기반 -->
+  <rect x="95" y="360" width="110" height="60" rx="6" fill="url(#level5)"/>
+  <rect x="215" y="360" width="110" height="60" rx="6" fill="url(#level5)"/>
+  <rect x="335" y="360" width="110" height="60" rx="6" fill="url(#level5)"/>
+  <rect x="455" y="360" width="110" height="60" rx="6" fill="url(#level5)"/>
+  <rect x="575" y="360" width="110" height="60" rx="6" fill="url(#level5)"/>
+
+  <!-- Cell Labels -->
+  <g font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="500">
+    <!-- Row 1: 1단계 -->
+    <text x="150" y="115">수동 입력</text>
+    <text x="270" y="115">텍스트 답변</text>
+    <text x="390" y="115">단일 Q&amp;A</text>
+    <text x="510" y="115">수동</text>
+    <text x="630" y="115">복붙 필요</text>
+
+    <!-- Row 2: 2단계 -->
+    <text x="150" y="185">업로드 확장</text>
+    <text x="270" y="185">텍스트 답변</text>
+    <text x="390" y="185">단일 Q&amp;A</text>
+    <text x="510" y="185">수동</text>
+    <text x="630" y="185">복붙 필요</text>
+
+    <!-- Row 3: 3단계 -->
+    <text x="150" y="255">자동 검색</text>
+    <text x="270" y="255">파일 생성</text>
+    <text x="390" y="255">다단계 가능</text>
+    <text x="510" y="255">수동</text>
+    <text x="630" y="255">직접 수정</text>
+
+    <!-- Row 4: 5단계 -->
+    <text x="150" y="325">자동 검색</text>
+    <text x="270" y="325">파일 생성</text>
+    <text x="390" y="325">워크플로우</text>
+    <text x="510" y="325">정기/트리거</text>
+    <text x="630" y="325">직접 수정</text>
+
+    <!-- Row 5: 6단계 -->
+    <text x="150" y="395">목표 기반</text>
+    <text x="270" y="395">복합 산출물</text>
+    <text x="390" y="395">자율 계획</text>
+    <text x="510" y="395">목표 달성까지</text>
+    <text x="630" y="395">피드백 루프</text>
+  </g>
+
+  <!-- Legend -->
+  <g transform="translate(700, 80)">
+    <text x="0" y="0" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#cbd5e1">수준</text>
+    <rect x="0" y="10" width="50" height="18" rx="3" fill="url(#level1)"/>
+    <text x="55" y="23" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#94a3b8">낮음</text>
+    <rect x="0" y="34" width="50" height="18" rx="3" fill="url(#level3)"/>
+    <text x="55" y="47" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#94a3b8">중간</text>
+    <rect x="0" y="58" width="50" height="18" rx="3" fill="url(#level4)"/>
+    <text x="55" y="71" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#94a3b8">높음</text>
+    <rect x="0" y="82" width="50" height="18" rx="3" fill="url(#level5)"/>
+    <text x="55" y="95" font-family="system-ui, -apple-system, sans-serif" font-size="10" fill="#94a3b8">최고</text>
+  </g>
+</svg>

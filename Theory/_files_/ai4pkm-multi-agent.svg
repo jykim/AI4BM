@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380">
+  <defs>
+    <linearGradient id="orchGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366F1;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#4F46E5;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="workerGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#2563EB;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="evalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:0.6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="700" height="380" fill="#FAFAFA"/>
+
+  <!-- Orchestrator Agent -->
+  <rect x="200" y="30" width="300" height="80" rx="12" fill="url(#orchGrad)" filter="drop-shadow(0 4px 6px rgba(0,0,0,0.1))"/>
+  <text x="350" y="62" font-family="system-ui, sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">Orchestrator Agent</text>
+  <text x="350" y="85" font-family="system-ui, sans-serif" font-size="11" fill="rgba(255,255,255,0.8)" text-anchor="middle">작업 분할 · Worker 생성 · 결과 통합</text>
+
+  <!-- Connection lines from Orchestrator to Workers -->
+  <path d="M280 110 L280 160 L120 160 L120 200" stroke="#94A3B8" stroke-width="2" fill="none"/>
+  <path d="M350 110 L350 200" stroke="#94A3B8" stroke-width="2" fill="none"/>
+  <path d="M420 110 L420 160 L580 160 L580 200" stroke="#94A3B8" stroke-width="2" fill="none"/>
+
+  <!-- Arrow heads -->
+  <polygon points="120,200 115,190 125,190" fill="#94A3B8"/>
+  <polygon points="350,200 345,190 355,190" fill="#94A3B8"/>
+  <polygon points="580,200 575,190 585,190" fill="#94A3B8"/>
+
+  <!-- Worker 1 - EIC -->
+  <rect x="50" y="200" width="140" height="100" rx="10" fill="url(#workerGrad)" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))"/>
+  <text x="120" y="235" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Worker Agent</text>
+  <rect x="70" y="250" width="100" height="30" rx="6" fill="rgba(255,255,255,0.2)"/>
+  <text x="120" y="271" font-family="ui-monospace, monospace" font-size="12" fill="white" text-anchor="middle">EIC</text>
+
+  <!-- Worker 2 - KTU -->
+  <rect x="280" y="200" width="140" height="100" rx="10" fill="url(#workerGrad)" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))"/>
+  <text x="350" y="235" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Worker Agent</text>
+  <rect x="300" y="250" width="100" height="30" rx="6" fill="rgba(255,255,255,0.2)"/>
+  <text x="350" y="271" font-family="ui-monospace, monospace" font-size="12" fill="white" text-anchor="middle">KTU</text>
+
+  <!-- Worker 3 - DRO -->
+  <rect x="510" y="200" width="140" height="100" rx="10" fill="url(#workerGrad)" filter="drop-shadow(0 2px 4px rgba(0,0,0,0.1))"/>
+  <text x="580" y="235" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="white" text-anchor="middle">Worker Agent</text>
+  <rect x="530" y="250" width="100" height="30" rx="6" fill="rgba(255,255,255,0.2)"/>
+  <text x="580" y="271" font-family="ui-monospace, monospace" font-size="12" fill="white" text-anchor="middle">DRO</text>
+
+  <!-- Evaluator (TBA - dashed) -->
+  <rect x="510" y="30" width="140" height="80" rx="10" fill="url(#evalGrad)" stroke="#D97706" stroke-width="2" stroke-dasharray="6,4"/>
+  <text x="580" y="62" font-family="system-ui, sans-serif" font-size="14" font-weight="bold" fill="#92400E" text-anchor="middle">Evaluator</text>
+  <text x="580" y="82" font-family="system-ui, sans-serif" font-size="11" fill="#B45309" text-anchor="middle">(TBA)</text>
+
+  <!-- Connection from Evaluator to Orchestrator (dashed) -->
+  <path d="M510 70 L500 70" stroke="#D97706" stroke-width="2" stroke-dasharray="4,4" fill="none" marker-end="url(#arrowOrange)"/>
+
+  <!-- Legend -->
+  <g transform="translate(50, 330)">
+    <rect x="0" y="0" width="600" height="40" rx="6" fill="#F1F5F9"/>
+    <text x="20" y="25" font-family="system-ui, sans-serif" font-size="11" fill="#64748B">
+      <tspan font-weight="bold">EIC</tspan> Enrich Ingested Content ·
+      <tspan font-weight="bold">KTU</tspan> Knowledge Topic Update ·
+      <tspan font-weight="bold">DRO</tspan> Daily Roundup
+    </text>
+  </g>
+
+  <!-- Arrow marker for orange -->
+  <defs>
+    <marker id="arrowOrange" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#D97706"/>
+    </marker>
+  </defs>
+</svg>

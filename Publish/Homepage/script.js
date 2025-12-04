@@ -1,3 +1,56 @@
+// Navigation Logic
+function renderNavigation() {
+    const nav = document.querySelector('.main-nav');
+    if (!nav) return;
+
+    const path = window.location.pathname;
+    const page = path.split('/').pop() || 'index.html';
+    const isEnglish = page === 'index_en.html';
+
+    const links = [
+        { name: 'Theory', href: 'theory.html' },
+        { name: 'Software', href: 'software.html' },
+        { name: 'Skills', href: 'skills.html' },
+        { name: 'Resources', href: 'resources.html' }
+    ];
+
+    const logoHref = isEnglish ? 'index_en.html' : 'index.html';
+    
+    let langToggle = '';
+    if (page === 'index.html' || page === '') {
+        langToggle = '<a href="index_en.html" class="lang-toggle-nav">English</a>';
+    } else if (page === 'index_en.html') {
+        langToggle = '<a href="index.html" class="lang-toggle-nav">한국어</a>';
+    }
+
+    const linksHtml = links.map(link => {
+        let activeClass = '';
+        if (page === link.href) {
+            activeClass = ' active';
+        } else if (link.name === 'Theory' && (page.startsWith('theory'))) {
+            activeClass = ' active';
+        } else if (link.name === 'Software' && (page === 'orchestrator.html')) {
+            activeClass = ' active';
+        }
+        return `<a href="${link.href}" class="nav-link${activeClass}">${link.name}</a>`;
+    }).join('\n                    ');
+
+    nav.innerHTML = `
+        <div class="container">
+            <div class="nav-left">
+                <a href="${logoHref}" class="nav-logo">AI for Better Me</a>
+                <div class="nav-links">
+                    ${linksHtml}
+                </div>
+            </div>
+            ${langToggle}
+        </div>
+    `;
+}
+
+// Run navigation render immediately
+renderNavigation();
+
 const canvas = document.getElementById('brain-canvas');
 const ctx = canvas.getContext('2d');
 
